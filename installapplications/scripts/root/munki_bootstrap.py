@@ -95,7 +95,7 @@ def munkiappleupdates():
 
 def main():
     # Variables
-    munkiurl = 'https://raw.githubusercontent.com/erikng/installapplicationsdemo/master/munki'  # noqa
+    munkiurl = 'https://caesar.danahall.org/munki_repo'  # noqa
     backupmanifest = 'production'
     try:
         if os.path.isdir('/Library/Managed Installs/icons'):
