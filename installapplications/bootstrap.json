@@ -38,13 +38,6 @@
             "file":"/Library/Application Support/installapplications/caffeinate.py"
         },
         {
-            "name":"Munki Bootstrap",
-            "hash":"cccfd5ba3a6d7afa42b4ea003cbb3dc05cef7103e246d8843a51d8e91e73577",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/munki_bootstrap.py",
-            "file":"/Library/Application Support/installapplications/munki_bootstrap.py",
-            "type":"rootscript"
-        },
-        {
             "name":"Munki LaunchD Loader",
             "hash":"954b7cec547dcc4e638991301ba600419e2b6aed15dc09ee412b1ba6218d31af",
             "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/munki_launchd_loader.py",
