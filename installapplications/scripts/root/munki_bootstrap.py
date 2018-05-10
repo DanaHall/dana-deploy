@@ -97,6 +97,7 @@ def main():
     # Variables
     munkiurl = 'https://caesar.danahall.org/munki_repo'  # noqa
     backupmanifest = 'production'
+    additionalhttpheaders = 'Authorization: Basic bmdpbng6ZzExbTEzTXlEQHRA'
     try:
         if os.path.isdir('/Library/Managed Installs/icons'):
             copy_tree('/Library/Managed Installs/icons',
@@ -119,6 +120,11 @@ def main():
         'ClientIdentifier', backupmanifest,
         '/Library/Preferences/ManagedInstalls',
         kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
+
+    CFPreferencesSetValue(
+        'AdditionalHttpHeaders', additionalhttpheaders,
+        '/Library/Preferences/ManagedInstalls',
+        kCFPreferencesAnyUser, kCFPreferencesCurrentHost)  
 
     # Run Munki with manifest you want to use
     munkirun('depdemo')

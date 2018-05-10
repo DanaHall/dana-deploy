@@ -38,15 +38,8 @@
             "file":"/Library/Application Support/installapplications/caffeinate.py"
         },
         {
-            "name":"Bless VM",
-            "hash":"52df572785e5b79806032049000450da463ecceeecc83671e1bc6bd61996248f",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/high_sierra_vm_bless.py",
-            "file":"/Library/Application Support/installapplications/high_sierra_vm_bless.py",
-            "type":"rootscript"
-        },
-        {
             "name":"Munki Bootstrap",
-            "hash":"78d00124021f8c6d8fbaf5d35a249715be3ba1206a8227bf9b8f2213f128fcf8",
+            "hash":"cccfd5ba3a6d7afa42b4ea003cbb3dc05cef7103e246d8843a51d8e91e73577",
             "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/munki_bootstrap.py",
             "file":"/Library/Application Support/installapplications/munki_bootstrap.py",
             "type":"rootscript"
