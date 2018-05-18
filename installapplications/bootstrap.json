@@ -7,7 +7,7 @@
             "hash":"403ecede5398f7f0960276b1f0f114a9c834b9faac6f7066aecd4ac2395b507a",
             "name":"DEPConfig.sh",
             "type":"rootscript",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/DEPConfig.sh"
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/DEPConfig.sh"
         },
         {
             "hash":"d09b878d32418d16d79c0ad4d89bb0d426c2914a6ce1f9238d7b4e98762f9c35",
@@ -16,7 +16,7 @@
             "version":"1.0.3",
             "type":"package",
             "name":"DEPNotify.pkg",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/pkgs/DEPNotify.pkg"
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/DEPNotify.pkg"
         },
         {
             "hash":"349c8b3a74f86d397b3a6025ce490da280286c4cfc610b633ce63b5e4e4d3ad4",
@@ -25,7 +25,7 @@
             "version":"3.2.1.3498",
             "type":"package",
             "name":"munkitools-3.2.1.3499.pkg",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/pkgs/munkitools-3.2.1.3499.pkg"
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/munkitools-3.2.1.3499.pkg"
         }
     ],
     "userland":[
@@ -34,13 +34,13 @@
             "type":"rootscript",
             "hash":"92bb078979917a745febdfa10256831dfb4fb46ed0628af3b1e04bf5bbede910",
             "name":"Caffeinate Machine",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/caffeinate.py",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/caffeinate.py",
             "file":"/Library/Application Support/installapplications/caffeinate.py"
         },
         {
             "name":"Munki LaunchD Loader",
             "hash":"954b7cec547dcc4e638991301ba600419e2b6aed15dc09ee412b1ba6218d31af",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/munki_launchd_loader.py",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/munki_launchd_loader.py",
             "file":"/Library/Application Support/installapplications/munki_launchd_loader.py",
             "type":"rootscript"
         },
@@ -49,20 +49,20 @@
             "type":"rootscript",
             "hash":"0ac1bef0c51c3eb2da95418abc691eb1eb02f1096b1ca7d709ffd669f620c13d",
             "name":"Munki Auto Trigger",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/munki_auto_trigger.py",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/munki_auto_trigger.py",
             "file":"/Library/Application Support/installapplications/munki_auto_trigger.py"
         },
         {
             "name":"Dockutil User",
             "hash":"1a8e8559e40c672ad63ecf136c31db4d2dc97a2bef8002a16497fa08bfbf6819",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/user/dockutil.py",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/user/dockutil.py",
             "file":"/Library/Application Support/installapplications/userscripts/dockutil.py",
             "type":"userscript"
         },
         {
             "name":"DEPNotify End",
             "hash":"8654428ada3b861e07ef46bbb160dc06be2ea62b3d961faccb6a8fe7539f6a65",
-            "url":"https://raw.githubusercontent.com/brianmurphydana/dana-deploy/master/installapplications/scripts/root/depnotify_end.py",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/depnotify_end.py",
             "file":"/Library/Application Support/installapplications/depnotify_end.py",
             "type":"rootscript"
         }
