@@ -32,6 +32,12 @@ echo "Status: Launching Managed Software Center" >> /var/tmp/depnotify.log
 
 /usr/bin/open -a /Applications/Managed\ Software\ Center.app
 
+sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "https://caesar.danahall.org/munki_repo"
+sudo defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool True
+sudo defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool True
+sudo defaults write /Library/Preferences/ManagedInstalls AdditionalHttpHeaders -array "Authorization: Basic bmdpbng6ZzExbTEzTXlEQHRA"
+sudo defaults write /Library/Preferences/ManagedInstalls ShowOptionalInstallsForHigherOSVersions -bool False
+
 touch /Users/Shared/.com.googlecode.munki.checkandinstallatstartup
 
 sleep 10
