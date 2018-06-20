@@ -4,7 +4,7 @@
     "setupassistant":[
         {
             "file":"/Library/Application Support/installapplications/DEPConfig.sh",
-            "hash":"66a7280db5e72e65b1bfcfbb1dbe6c45a5fe5575180022942f4beb7bcae2469d",
+            "hash":"c1cfa2149314660a6a03e947fdc5aae76f2639612e780754f63d37412b24a298",
             "name":"DEPConfig.sh",
             "type":"rootscript",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/DEPConfig.sh"

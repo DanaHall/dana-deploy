@@ -1,0 +1,1 @@
+{"ownership":"recommended","signing_info":{"identity":"Developer ID Installer: Dana Hall School (6HENQBGW5W)","timestamp":true},"suppress_bundle_relocation":true,"identifier":"com.erikng.installapplications","postinstall_action":"none","distribution_style":true,"version":"1.2","name":"InstallApplications-${version}.pkg","install_location":"/"}

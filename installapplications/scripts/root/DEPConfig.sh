@@ -20,6 +20,10 @@ echo "Status: Starting First Operations" >> /var/tmp/depnotify.log
 
 sleep 5
 
+sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -on -users ladmin -privs -all -restart -agent -menu
+
+sleep 5
+
 echo "Status: Loading Munki LaunchDaemons" >> /var/tmp/depnotify.log
 
 /bin/launchctl load /Library/LaunchDaemons/com.googlecode.munki.managedsoftwareupdate-check.plist
@@ -28,10 +32,6 @@ echo "Status: Loading Munki LaunchDaemons" >> /var/tmp/depnotify.log
 
 sleep 5
 
-echo "Status: Launching Managed Software Center" >> /var/tmp/depnotify.log
-
-/usr/bin/open -a /Applications/Managed\ Software\ Center.app
-
 sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "https://caesar.danahall.org/munki_repo"
 sudo defaults write /Library/Preferences/ManagedInstalls InstallAppleSoftwareUpdates -bool True
 sudo defaults write /Library/Preferences/ManagedInstalls SuppressUserNotification -bool True
@@ -39,6 +39,12 @@ sudo defaults write /Library/Preferences/ManagedInstalls AdditionalHttpHeaders -
 sudo defaults write /Library/Preferences/ManagedInstalls ShowOptionalInstallsForHigherOSVersions -bool False
 
 touch /Users/Shared/.com.googlecode.munki.checkandinstallatstartup
+
+sleep 5
+
+echo "Status: Launching Managed Software Center" >> /var/tmp/depnotify.log
+
+/usr/bin/open -a /Applications/Managed\ Software\ Center.app
 
 sleep 10
 
