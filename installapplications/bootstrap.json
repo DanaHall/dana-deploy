@@ -58,13 +58,6 @@
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/user/dockutil.py",
             "file":"/Library/Application Support/installapplications/userscripts/dockutil.py",
             "type":"userscript"
-        },
-        {
-            "name":"DEPNotify End",
-            "hash":"8654428ada3b861e07ef46bbb160dc06be2ea62b3d961faccb6a8fe7539f6a65",
-            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/depnotify_end.py",
-            "file":"/Library/Application Support/installapplications/depnotify_end.py",
-            "type":"rootscript"
         }
     ]
 }
