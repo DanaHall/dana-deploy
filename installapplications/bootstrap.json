@@ -4,7 +4,7 @@
     "setupassistant":[
         {
             "file":"/Library/Application Support/installapplications/DEPConfig.sh",
-            "hash":"c1cfa2149314660a6a03e947fdc5aae76f2639612e780754f63d37412b24a298",
+            "hash":"e3b0128006d5d8587eed5a28eb60c48843865862110306c1c6a49679343094e9",
             "name":"DEPConfig.sh",
             "type":"rootscript",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/DEPConfig.sh"
@@ -19,13 +19,13 @@
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/DEPNotify.pkg"
         },
         {
-            "hash":"349c8b3a74f86d397b3a6025ce490da280286c4cfc610b633ce63b5e4e4d3ad4",
+            "hash":"bda08ad4104cc892033c9a84672f6d24069c30533d0b67de113744d696a53032",
             "packageid":"com.googlecode.munki.core",
-            "file":"/Library/Application Support/installapplications/munkitools-3.2.1.3499.pkg",
+            "file":"/Library/Application Support/installapplications/munkitools-3.3.0.3515.pkg",
             "version":"3.2.1.3498",
             "type":"package",
-            "name":"munkitools-3.2.1.3499.pkg",
-            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/munkitools-3.2.1.3499.pkg"
+            "name":"munkitools-3.3.0.3515.pkg",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/munkitools-3.3.0.3515.pkg"
         }
     ],
     "userland":[
