@@ -10,7 +10,7 @@
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/DEPConfig.sh"
         },
         {
-            "hash":"d09b878d32418d16d79c0ad4d89bb0d426c2914a6ce1f9238d7b4e98762f9c35",
+            "hash":"dcfc65469a7895a266b0e8596b6a05a0f0d3507d473550a9efe430863eb39aec",
             "packageid":"menu.nomad.DEPNotify",
             "file":"/Library/Application Support/installapplications/DEPNotify.pkg",
             "version":"1.0.3",
@@ -38,7 +38,14 @@
             "file":"/Library/Application Support/installapplications/caffeinate.py"
         },
         {
-            "name":"Munki LaunchD Loader",
+            "name":"Munki Bootstrap",
+            "hash":"d81cdecd4d9780254be2d69133f03e6b569957c36a84fa5cd951db1910afd106",
+            "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/munki_bootstrap.py",
+            "file":"/Library/Application Support/installapplications/munki_bootstrap.py",
+            "type":"rootscript"
+        },
+        {
+            "name":"Munki LaunchD",
             "hash":"954b7cec547dcc4e638991301ba600419e2b6aed15dc09ee412b1ba6218d31af",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/munki_launchd_loader.py",
             "file":"/Library/Application Support/installapplications/munki_launchd_loader.py",
@@ -47,7 +54,7 @@
         {
             "donotwait":true,
             "type":"rootscript",
-            "hash":"0ac1bef0c51c3eb2da95418abc691eb1eb02f1096b1ca7d709ffd669f620c13d",
+            "hash":"8a4ec3e10491a7283fdb37ba1d0c2f11ade0699b93f79e62d4986fb8d77410d1",
             "name":"Munki Auto Trigger",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/munki_auto_trigger.py",
             "file":"/Library/Application Support/installapplications/munki_auto_trigger.py"
