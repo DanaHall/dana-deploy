@@ -96,7 +96,7 @@ def munkiappleupdates():
 def main():
     # Variables
     munkiurl = 'https://caesar.danahall.org/munki_repo'  # noqa
-    backupmanifest = 'production'
+    backupmanifest = ''
     try:
         if os.path.isdir('/Library/Managed Installs/icons'):
             copy_tree('/Library/Managed Installs/icons',

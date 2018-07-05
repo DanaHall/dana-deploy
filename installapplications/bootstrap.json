@@ -39,7 +39,7 @@
         },
         {
             "name":"Munki Bootstrap",
-            "hash":"d81cdecd4d9780254be2d69133f03e6b569957c36a84fa5cd951db1910afd106",
+            "hash":"9999716261684e3655cdec0c82ab3c30d3016f15458041250299f8466bc6af47",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/scripts/root/munki_bootstrap.py",
             "file":"/Library/Application Support/installapplications/munki_bootstrap.py",
             "type":"rootscript"
