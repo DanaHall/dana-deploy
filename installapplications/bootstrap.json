@@ -1,4 +1,4 @@
--{
+{
     "preflight":[
     ],
     "setupassistant":[
@@ -13,7 +13,6 @@
             "hash":"dcfc65469a7895a266b0e8596b6a05a0f0d3507d473550a9efe430863eb39aec",
             "packageid":"menu.nomad.DEPNotify",
             "file":"/Library/Application Support/installapplications/DEPNotify.pkg",
-            "version":"1.0.3",
             "type":"package",
             "name":"DEPNotify.pkg",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/DEPNotify.pkg"
@@ -22,7 +21,6 @@
             "hash":"bda08ad4104cc892033c9a84672f6d24069c30533d0b67de113744d696a53032",
             "packageid":"com.googlecode.munki.core",
             "file":"/Library/Application Support/installapplications/munkitools-3.3.0.3515.pkg",
-            "version":"3.2.1.3498",
             "type":"package",
             "name":"munkitools-3.3.0.3515.pkg",
             "url":"https://raw.githubusercontent.com/danahall/dana-deploy/master/installapplications/pkgs/munkitools-3.3.0.3515.pkg"
